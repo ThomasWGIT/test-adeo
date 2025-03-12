@@ -3,13 +3,13 @@ import { IsString, IsEnum, IsOptional } from 'class-validator';
 export class UpdateTaskDto {
   @IsString()
   @IsOptional()
-  title: string;
+  title?: string;
 
   @IsString()
   @IsOptional()
-  description: string;
+  description?: string;
 
   @IsEnum(['à faire', 'en cours', 'terminé'])
   @IsOptional()
-  status: 'à faire' | 'en cours' | 'terminé';
+  status?: 'à faire' | 'en cours' | 'terminé';
 }
