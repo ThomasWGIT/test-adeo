@@ -6,7 +6,7 @@ import { MongooseModule } from '@nestjs/mongoose/dist/mongoose.module';
   imports: [
     TasksModule,
     MongooseModule.forRoot(
-      'mongodb+srv://thomaswita:{password}@cluster0.8xysy.mongodb.net/test-adeo?retryWrites=true&w=majority&appName=Cluster0',
+      'mongodb+srv://thomaswita:bX9yfIVLAg0ISkmt@cluster0.8xysy.mongodb.net/test-adeo?retryWrites=true&w=majority&appName=Cluster0',
     ),
   ],
   controllers: [],
